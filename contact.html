@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ezra Schott - Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="page-header">
+
+        <img src="https://placehold.co/200x70" alt="" class="page-header__item">
+        <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+            </li>
+            <li role="presentation">
+                <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            </li>
+            <li role="presentation">
+                <a href="contact.html" role="menuitem"
+                    class="navigation-list__item navigation-list__item--active">Contact</a>
+            </li>
+            <li role="presentation">
+                <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+            </li>
+        </ul>
+        </nav>
+
+    </header>
+<div class="content">
+    <h1>Contact</h1>
+    <div>
+        <!-- placeholder info throughout-->
+        <h2>Ezra Schott</h2>
+        <p>123 Placeholder St</p>
+        <p>Berkeley California</p>
+        <p>United States</p>
+        <br>
+        <!-- placeholder phone number and skype-->
+        Tel: <a href="tel:123 546 7890">(123) 546 7890</a><br>
+        Skype: <a href="skype:hello.placeholder"> placeholder skype</a>
+        <br>
+        Email: <a href="mailto:placeholder@gmail.com">placeholder@gmail.com</a> <br>
+        <a href="placeholder@gmail.com">Contact me</a>
+    </div>
+    <div>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required><br>
+            <label class="standard-label" for="contact-tel">Telephone: </label>
+            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"> <br>
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea id="my-input" required maxlength="240"></textarea> <br>
+            <input type="submit" value="Send message" id="contact-message">
+        </form>
+
+    </div>
+</div>
+    
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
